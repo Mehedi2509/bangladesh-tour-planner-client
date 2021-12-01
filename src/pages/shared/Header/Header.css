@@ -1,0 +1,82 @@
+.logo-container{
+align-items: center;
+}
+.logo-container img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.logo-container h2{
+    font-weight: 700;
+    color: gray;
+    /* margin-top: 5px; */
+}
+.logo-container h2 span{
+    color: peru;
+}
+.sign-btn{
+    border: 0;
+    border-radius: 70% 40%;
+    background-color: peru;
+    padding: 8px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+.sign-btn:hover{
+    background-color: grey;
+}
+.menu-btn{
+    text-decoration: none;
+    padding: 10px 35px;
+    color: gray;
+    font-weight: 700;
+    font-size: 18px;
+}
+.menu-btn:hover{
+    background-color: grey;
+    color:white;
+    border-radius: 50px 30px;
+}
+.search-btn{
+    background-color: grey;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.search-btn:hover{
+    background-color: peru;
+}
+.user-profile{
+    width: 30px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:668px) {
+    .logo-container img{
+        width: 40px;
+    }
+    .logo-container h2{
+        font-size: 16px;
+        font-weight: 700;
+        color: gray;
+        margin-top: 5px;
+    }
+    .sign-btn{
+        border: 0;
+        background-color: peru;
+        padding: 7px 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .user-profile{
+        width: 20px;
+        
+    }
+    .user-name{
+       font-size: 8px;
+    }
+}

@@ -1,0 +1,18 @@
+.single-plan{
+    box-shadow: 10px 10px 20px rgb(4, 59, 41);
+}
+
+.detail-btn{
+    border: 0;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(110, 161, 179);
+    color:white;
+}
+
+@media only screen and (max-width:668px) {
+    .detail-btn{
+        padding: 5px 20px;
+    }
+}

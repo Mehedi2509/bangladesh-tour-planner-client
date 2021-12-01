@@ -1,0 +1,20 @@
+.plan-detail{
+width: 70%;
+}
+.row p{
+    line-height: 12px;
+}
+.ticket-btn{
+background-color: chocolate;
+color: white;
+border: 0;
+padding: 7px 50px;
+border-radius: 50px 40px;
+font-weight: 600;
+}
+
+@media only screen and (max-width:668px) {
+    .plan-detail{
+        width: 100%;
+        }
+}
