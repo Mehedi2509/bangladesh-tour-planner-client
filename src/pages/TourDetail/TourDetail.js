@@ -9,7 +9,7 @@ const TourDetail = () => {
     const history = useHistory();
 
     useEffect(() => {
-        fetch(`https://shielded-ridge-36942.herokuapp.com/tourPlans/${id}`)
+        fetch(`https://bangladesh-tour-planner-server.vercel.app/tourPlans/${id}`)
             .then(res => res.json())
             .then(data => setPlan(data))
     }, [])

@@ -11,7 +11,7 @@ const BuyTicket = () => {
 
     const onSubmit = data => {
         console.log(data)
-        fetch('https://shielded-ridge-36942.herokuapp.com/buyTicket', {
+        fetch('https://bangladesh-tour-planner-server.vercel.app/buyTicket', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

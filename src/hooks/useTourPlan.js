@@ -5,7 +5,7 @@ const useTourPlan = () => {
     const [plans, setPlans] = useState([]);
 
     useEffect(() => {
-        fetch('https://shielded-ridge-36942.herokuapp.com/tourPlans')
+        fetch('https://bangladesh-tour-planner-server.vercel.app/tourPlans')
             .then(res => res.json())
             .then(data => setPlans(data))
     }, [])
